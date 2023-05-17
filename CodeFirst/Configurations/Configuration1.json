@@ -1,0 +1,5 @@
+{
+  "ConnectionStrings": {
+    "SqlServer": "Server=DESKTOP-L858T4B;Database=ECommerceDb;User Id=hakan;Password=sifre1234;Encrypt=True;TrustServerCertificate=True;"
+  }
+}
