@@ -1,19 +1,30 @@
-﻿// See https://aka.ms/new-console-template for more information
-using PersistingTheData.Context;
+﻿using PersistingTheData.Context;
 using PersistingTheData.Entities;
+using System;
 
-Console.WriteLine("Hello, World!");
-
-ExampleDbContext _context = new();
-var product = new Product()
+namespace MyApp // Note: actual namespace depends on the project name.
 {
-    Name = "Test",
-};
+    internal class Program
+    {
+        static async Task Main(string[] args)
+        {
+            Console.WriteLine("Hello, World!");
 
-Console.WriteLine(_context.Entry(product).State);
-await _context.AddAsync(product);
-Console.WriteLine(_context.Entry(product).State);
-await _context.SaveChangesAsync();
-Console.WriteLine(_context.Entry(product).State);
-_context.Remove(product);
-Console.WriteLine(_context.Entry(product).State);
+            ExampleDbContext _context = new();
+            var product = new Product()
+            {
+                Name = "Test",
+            };
+
+
+            Console.WriteLine(_context.Entry(product).State);
+            await _context.AddAsync(product);
+            Console.WriteLine(_context.Entry(product).State);
+            await _context.SaveChangesAsync();
+            Console.WriteLine(_context.Entry(product).State);
+            _context.Remove(product);
+            Console.WriteLine(_context.Entry(product).State);
+
+        }
+    }
+}

@@ -3,15 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DatabaseFirst", "DatabaseFirst\DatabaseFirst.csproj", "{21014243-5351-42A1-81DB-7D0A51F94343}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DatabaseFirst", "DatabaseFirst\DatabaseFirst.csproj", "{21014243-5351-42A1-81DB-7D0A51F94343}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeFirst", "CodeFirst\CodeFirst.csproj", "{E66C6FBA-79E7-43C4-B0B8-2154043A08D0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeFirst", "CodeFirst\CodeFirst.csproj", "{E66C6FBA-79E7-43C4-B0B8-2154043A08D0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp", "ConsoleApp\ConsoleApp.csproj", "{590FA6DE-7E65-4FCC-8211-D97A0FA63792}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp", "ConsoleApp\ConsoleApp.csproj", "{590FA6DE-7E65-4FCC-8211-D97A0FA63792}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnConfiguring", "Lesson9\OnConfiguring.csproj", "{6A4EE4C2-6C75-487A-BDA0-76E13027F291}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OnConfiguring", "Lesson9\OnConfiguring.csproj", "{6A4EE4C2-6C75-487A-BDA0-76E13027F291}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersistingTheData", "PersistingTheData\PersistingTheData.csproj", "{8AB1DD32-6701-47AD-9CB3-A04E48D2A201}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PersistingTheData", "PersistingTheData\PersistingTheData.csproj", "{8AB1DD32-6701-47AD-9CB3-A04E48D2A201}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UpdateData", "UpdateData\UpdateData.csproj", "{AC19583E-8EDF-4400-8911-7D5E750BC25D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeleteData", "DeleteData\DeleteData.csproj", "{18C376C2-2D46-4133-9CF8-173E3D96DAAE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +43,14 @@ Global
 		{8AB1DD32-6701-47AD-9CB3-A04E48D2A201}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8AB1DD32-6701-47AD-9CB3-A04E48D2A201}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8AB1DD32-6701-47AD-9CB3-A04E48D2A201}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC19583E-8EDF-4400-8911-7D5E750BC25D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC19583E-8EDF-4400-8911-7D5E750BC25D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC19583E-8EDF-4400-8911-7D5E750BC25D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC19583E-8EDF-4400-8911-7D5E750BC25D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18C376C2-2D46-4133-9CF8-173E3D96DAAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18C376C2-2D46-4133-9CF8-173E3D96DAAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18C376C2-2D46-4133-9CF8-173E3D96DAAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18C376C2-2D46-4133-9CF8-173E3D96DAAE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
