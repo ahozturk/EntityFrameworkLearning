@@ -22,4 +22,14 @@ foreach (Product product in products2)
 }
 #endregion
 
+#region Where - OrderBy
+
+int findId = 10;
+var products = await _context.Products.Where(p => p.Id == findId && p.Name.Contains("ha")).OrderBy(p => p.Name).ThenBy(p => p.Id).ToListAsync();
+
+var products3 = await _context.Products.OrderByDescending(p => p.Price).ToListAsync();
+
+Console.WriteLine();
+#endregion
+
 Console.WriteLine();
