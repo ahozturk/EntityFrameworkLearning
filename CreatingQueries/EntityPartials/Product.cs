@@ -16,6 +16,6 @@ namespace CreatingQueries
         {
             Name = name;
         }
-        public float Price { get; set; }
+        
     }
 }
