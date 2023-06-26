@@ -19,7 +19,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DeleteData", "DeleteData\De
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CreatingQueries", "CreatingQueries\CreatingQueries.csproj", "{107A131A-50A3-451F-B4AA-7576B44F10F5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GetSingleRow", "GetSingleRow\GetSingleRow.csproj", "{57CBF5DA-50BB-4F3C-9E01-37AE25B1643E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GetSingleRow", "GetSingleRow\GetSingleRow.csproj", "{57CBF5DA-50BB-4F3C-9E01-37AE25B1643E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OtherQueryFunctions", "OtherQueryFunctions\OtherQueryFunctions.csproj", "{D02CF5ED-E72C-4F43-B934-E2E9B100351A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GetDataInSpecificFormat", "GetDataInSpecificFormat\GetDataInSpecificFormat.csproj", "{9102BB3A-560B-477A-8F65-298598FC48A1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GroupBy", "GroupBy\GroupBy.csproj", "{C8111EDA-DDE4-4EA3-9032-0BAD5679A8D2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +69,18 @@ Global
 		{57CBF5DA-50BB-4F3C-9E01-37AE25B1643E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{57CBF5DA-50BB-4F3C-9E01-37AE25B1643E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{57CBF5DA-50BB-4F3C-9E01-37AE25B1643E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D02CF5ED-E72C-4F43-B934-E2E9B100351A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D02CF5ED-E72C-4F43-B934-E2E9B100351A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D02CF5ED-E72C-4F43-B934-E2E9B100351A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D02CF5ED-E72C-4F43-B934-E2E9B100351A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9102BB3A-560B-477A-8F65-298598FC48A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9102BB3A-560B-477A-8F65-298598FC48A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9102BB3A-560B-477A-8F65-298598FC48A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9102BB3A-560B-477A-8F65-298598FC48A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8111EDA-DDE4-4EA3-9032-0BAD5679A8D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8111EDA-DDE4-4EA3-9032-0BAD5679A8D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8111EDA-DDE4-4EA3-9032-0BAD5679A8D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8111EDA-DDE4-4EA3-9032-0BAD5679A8D2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
