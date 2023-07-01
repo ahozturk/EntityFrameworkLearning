@@ -27,7 +27,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GetDataInSpecificFormat", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GroupBy", "GroupBy\GroupBy.csproj", "{C8111EDA-DDE4-4EA3-9032-0BAD5679A8D2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChangeTracker", "ChangeTracker\ChangeTracker.csproj", "{B7531621-4870-4172-8DE4-AF4F6164BB9C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChangeTracker", "ChangeTracker\ChangeTracker.csproj", "{B7531621-4870-4172-8DE4-AF4F6164BB9C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NoTracking", "NoTracking\NoTracking.csproj", "{253547E9-8C99-455D-87D1-A86ADD9512EB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -87,6 +89,10 @@ Global
 		{B7531621-4870-4172-8DE4-AF4F6164BB9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B7531621-4870-4172-8DE4-AF4F6164BB9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B7531621-4870-4172-8DE4-AF4F6164BB9C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{253547E9-8C99-455D-87D1-A86ADD9512EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{253547E9-8C99-455D-87D1-A86ADD9512EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{253547E9-8C99-455D-87D1-A86ADD9512EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{253547E9-8C99-455D-87D1-A86ADD9512EB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
