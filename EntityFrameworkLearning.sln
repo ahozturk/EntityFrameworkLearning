@@ -29,7 +29,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GroupBy", "GroupBy\GroupBy.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChangeTracker", "ChangeTracker\ChangeTracker.csproj", "{B7531621-4870-4172-8DE4-AF4F6164BB9C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NoTracking", "NoTracking\NoTracking.csproj", "{253547E9-8C99-455D-87D1-A86ADD9512EB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NoTracking", "NoTracking\NoTracking.csproj", "{253547E9-8C99-455D-87D1-A86ADD9512EB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RelationalTables", "RelationalTables\RelationalTables.csproj", "{1AE26251-D7D5-41F6-897D-0D8BCEF3A203}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -93,6 +95,10 @@ Global
 		{253547E9-8C99-455D-87D1-A86ADD9512EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{253547E9-8C99-455D-87D1-A86ADD9512EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{253547E9-8C99-455D-87D1-A86ADD9512EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1AE26251-D7D5-41F6-897D-0D8BCEF3A203}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1AE26251-D7D5-41F6-897D-0D8BCEF3A203}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1AE26251-D7D5-41F6-897D-0D8BCEF3A203}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1AE26251-D7D5-41F6-897D-0D8BCEF3A203}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
